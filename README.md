@@ -1,2 +1,2 @@
 # odin-landing
-A landing page
+A landing page made using HTML and CSS
