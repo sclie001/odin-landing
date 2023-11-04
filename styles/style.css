@@ -4,3 +4,6 @@ ul{
     padding: 0;
 }
 
+li{
+    display: inline;
+}
