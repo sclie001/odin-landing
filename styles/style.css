@@ -36,7 +36,7 @@ ul{
     padding: 0;
 }
 
-li, .hero p{
+li, .hero p, .hero-image{
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -49,6 +49,7 @@ li{
 .hero-container{
     display: flex;
    /* padding: 64px 0;*/
+   gap: 56px;
 }
 
 .hero{
@@ -62,6 +63,15 @@ li{
 .hero h1{
     font-size: 48px;
     font-weight: 900;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+    width:500px;
+    height: 200px;
+    background-color: rgb(122, 122, 122);
+    align-items: center;
 }
 
 .hero-button{
