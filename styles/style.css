@@ -43,3 +43,8 @@ li{
 .hero-container{
     display: flex;
 }
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
