@@ -50,8 +50,8 @@ li{
 
 .hero-container{
     display: flex;
-   padding: 7em 0;
-   gap: 64px;
+    padding: 8em 0;
+    gap: 64px;
 }
 
 .hero{
