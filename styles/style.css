@@ -14,8 +14,8 @@ header, .hero-container{
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin-right: 24px;
-    margin-left: 24px;
+    margin-right: 64px;
+    margin-left: 64px;
     padding-top: 16px;
     padding-bottom: 16px;
     align-items: center;
@@ -32,7 +32,7 @@ header, .hero-container{
 
 ul{
     list-style-type: none;
-    margin-right: 10em;
+    margin-right: 9em;
     padding: 0;
 }
 
@@ -56,7 +56,7 @@ li{
     display: flex;
     flex-direction: column;
     width:450px;
-    margin-left: 24px;
+    margin-left: 64px;
     gap: 8px;
 }
 
