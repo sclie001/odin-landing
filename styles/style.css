@@ -20,7 +20,7 @@ header, .hero-container{
     align-items: center;
 }
 
-.logo, .hero h1{
+.logo, .hero h1, button{
     color:#F9FAF8;
 }
 
@@ -37,6 +37,9 @@ ul{
 
 li, .hero p, .hero-image{
     color: #E5E7EB;
+}
+
+li, .hero p, .hero-image, button{
     font-size: 18px;
 }
 
@@ -75,5 +78,9 @@ li{
 
 .hero-button{
     align-self: flex-start;
-    padding: 8px 24px;
+    padding: 8px 32px;
+    background-color: #3882F6;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
 }
