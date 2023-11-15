@@ -49,7 +49,7 @@ li{
 .hero-container{
     display: flex;
    /* padding: 64px 0;*/
-   gap: 56px;
+   gap: 64px;
 }
 
 .hero{
@@ -68,7 +68,7 @@ li{
 .hero-image{
     display: flex;
     justify-content: center;
-    width:500px;
+    width:564px;
     height: 200px;
     background-color: rgb(122, 122, 122);
     align-items: center;
