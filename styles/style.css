@@ -29,7 +29,7 @@ header, .hero-container{
     font-weight: 700;
 }
 
-ul{
+.nav-links{
     list-style-type: none;
     margin-right: 9em;
     padding: 0;
