@@ -84,3 +84,9 @@ li{
     border: none;
     border-radius: 8px;
 }
+
+.info-header-text{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
