@@ -114,3 +114,8 @@ li{
     border: 4px solid #3882F6;
     border-radius: 16px;
 }
+.subtext{
+    width: 175px;
+    padding: 8px;
+    text-wrap: wrap;
+}
