@@ -85,7 +85,6 @@ li{
 }
 
 .info-header-text{
-    font-size: 36px;
     color: #1F2937;
     text-align: center;
     padding: 8px 8px 16px;
@@ -136,12 +135,17 @@ li{
 
 blockquote p {
     padding: 20px 72px;
-    font-size: 36px;
     font-weight: 300;
     font-style:italic;
 }
 
-.quote-footer{
+blockquote p, .info-header-text{
+    font-size: 36px;
+}
+
+.quote-footer p{
     text-align: right;
     margin-right: 8em;
+    font-size: 18px;
+    font-weight: 700;
 }
