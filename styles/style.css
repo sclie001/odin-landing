@@ -127,6 +127,12 @@ li{
     padding: 6em 8em;
 }
 
+.blockquote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .blockquote-text {
     padding: 20px 88px;
     font-weight: 300;
