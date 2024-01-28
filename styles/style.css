@@ -140,3 +140,8 @@ blockquote p {
     font-weight: 300;
     font-style:italic;
 }
+
+.quote-footer{
+    text-align: right;
+    margin-right: 8em;
+}
