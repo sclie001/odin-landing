@@ -133,13 +133,13 @@ li{
     padding: 6em 8em;
 }
 
-blockquote p {
+.blockquote-text {
     padding: 20px 72px;
     font-weight: 300;
     font-style:italic;
 }
 
-blockquote p, .info-header-text{
+.blockquote-text, .info-header-text{
     font-size: 36px;
 }
 
