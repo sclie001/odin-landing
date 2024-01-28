@@ -131,6 +131,7 @@ li{
 /*quote section*/
 .quote-container{
     background-color: #E5E7EB;
+    padding: 6em 8em;
 }
 
 blockquote p {
