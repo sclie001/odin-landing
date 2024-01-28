@@ -39,10 +39,6 @@ li, .hero p, .hero-image{
     color: #E5E7EB;
 }
 
-li, .hero p, .hero-image, button{
-    font-size: 18px;
-}
-
 li{
     display: inline;
     margin-right: 16px;
@@ -146,6 +142,9 @@ li{
 .quote-footer p{
     text-align: right;
     margin-right: 8em;
-    font-size: 18px;
     font-weight: 700;
+}
+
+li, .hero p, .hero-image, button, .quote-footer p{
+    font-size: 18px;
 }
