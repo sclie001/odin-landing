@@ -26,7 +26,6 @@ header, .hero-container{
 
 .logo {
     font-size: 24px;
-    font-weight: 700;
 }
 
 .nav-links{
@@ -147,4 +146,8 @@ li{
 
 li, .hero p, .hero-image, button, .quote-footer p{
     font-size: 18px;
+}
+
+.logo, .hero-button, .quote-footer p{
+    font-weight: 700;
 }
