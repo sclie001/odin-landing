@@ -176,4 +176,6 @@ li, .hero p, .hero-image, button, .quote-footer p{
     height:100px;
     background-color: #3882F6;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
