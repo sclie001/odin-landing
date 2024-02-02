@@ -156,3 +156,9 @@ li, .hero p, .hero-image, button, .quote-footer p{
 .logo, .hero-button, .quote-footer p{
     font-weight: 700;
 }
+
+/*call to action section*/
+.call-to-action-container{
+    width: 200px;
+    height: 200px;
+}
