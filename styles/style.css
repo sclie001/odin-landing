@@ -24,7 +24,7 @@ header, .hero-container{
     color:#F9FAF8;
 }
 
-.logo {
+.logo, .call-to-action-title{
     font-size: 24px;
 }
 
@@ -147,7 +147,7 @@ li{
     margin-right: 8em;
 }
 
-li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .call-to-action-title{
+li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p{
     font-size: 18px;
 }
 
