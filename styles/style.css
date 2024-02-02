@@ -147,7 +147,7 @@ li{
     margin-right: 8em;
 }
 
-li, .hero p, .hero-image, .hero-button, .call-to-action-btn .quote-footer p{
+li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p{
     font-size: 18px;
 }
 
@@ -170,12 +170,11 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn .quote-footer p{
 }
 
 .call-to-action-content-container{
-    width: 1000px;
-    height:100px;
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 90px;
+    padding: 50px 90px;
 }
 
 .hero-button, .call-to-action-btn, .call-to-action-content-container{
