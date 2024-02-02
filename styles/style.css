@@ -73,7 +73,6 @@ li{
 .hero-button{
     align-self: flex-start;
     padding: 8px 32px;
-    background-color: #3882F6;
     border: none;
     border-radius: 8px;
 }
@@ -149,11 +148,11 @@ li{
     font-weight: 700;
 }
 
-li, .hero p, .hero-image, button, .quote-footer p{
+li, .hero p, .hero-image, .hero-button, .call-to-action-btn .quote-footer p{
     font-size: 18px;
 }
 
-.logo, .hero-button, .quote-footer p{
+.logo, .hero-button, .call-to-action-btn, .quote-footer p{
     font-weight: 700;
 }
 
@@ -174,14 +173,18 @@ li, .hero p, .hero-image, button, .quote-footer p{
 .call-to-action-content-container{
     width: 1000px;
     height:100px;
-    background-color: #3882F6;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 90px;
 }
 
-.call-to-action-btn{
+.hero-button, .call-to-action-btn, .call-to-action-content-container{
     background-color: #3882F6;
-    border: 2px solid #F9FAF8;    
+}
+
+.call-to-action-btn{
+    border: 2px solid #F9FAF8; 
+    padding: 8px 32px; 
+    border-radius: 8px;  
 }
