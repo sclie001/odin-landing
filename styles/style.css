@@ -175,4 +175,5 @@ li, .hero p, .hero-image, button, .quote-footer p{
     width: 1000px;
     height:100px;
     background-color: #3882F6;
+    display: flex;
 }
