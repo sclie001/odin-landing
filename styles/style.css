@@ -34,7 +34,7 @@ header, .hero-container{
     padding: 0;
 }
 
-li, .hero p, .hero-image{
+li, .hero p, .hero-image, .call-to-action-phrase{
     color: #E5E7EB;
 }
 
@@ -185,4 +185,8 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .c
     border: 2px solid #F9FAF8; 
     padding: 8px 32px; 
     border-radius: 8px;  
+}
+
+.call-to-action-phrase{
+    font-size: 12px;
 }
