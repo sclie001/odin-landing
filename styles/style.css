@@ -175,6 +175,7 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .c
     align-items: center;
     justify-content: space-between;
     padding: 50px 90px;
+    border-radius: 8px;
 }
 
 .hero-button, .call-to-action-btn, .call-to-action-content-container{
