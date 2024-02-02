@@ -20,7 +20,7 @@ header, .hero-container{
     align-items: center;
 }
 
-.logo, .hero h1, button{
+.logo, .hero h1, .call-to-action-title, button{
     color:#F9FAF8;
 }
 
@@ -147,11 +147,11 @@ li{
     margin-right: 8em;
 }
 
-li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p{
+li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .call-to-action-title{
     font-size: 18px;
 }
 
-.logo, .hero-button, .call-to-action-btn, .quote-footer p{
+.logo, .hero-button, .call-to-action-btn, .quote-footer p, .call-to-action-title{
     font-weight: 700;
 }
 
