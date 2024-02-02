@@ -158,7 +158,20 @@ li, .hero p, .hero-image, button, .quote-footer p{
 }
 
 /*call to action section*/
-.call-to-action-container{
+/* .call-to-action-container{
     width: 200px;
     height: 200px;
+    background-color: yellow;
+} */
+.call-to-action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.call-to-action-content-container{
+    width: 1000px;
+    height:100px;
+    background-color: #3882F6;
 }
