@@ -111,7 +111,7 @@ li{
     text-wrap: wrap;
 }
 
-/*format for image in image card*/
+/*image card*/
 .card_photo{
     width: 170px;
     height: 170px;
@@ -154,12 +154,6 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .f
     font-weight: 700;
 }
 
-/*call to action section*/
-/* .call-to-action-container{
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-} */
 .call-to-action-container{
     display: flex;
     justify-content: center;
