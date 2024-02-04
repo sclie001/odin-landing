@@ -8,10 +8,6 @@ url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700
 }
 
 /*header section*/
-header, .hero-container, .footer-container{
-    background-color: #1F2937;
-}
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -21,22 +17,10 @@ header, .hero-container, .footer-container{
     align-items: center;
 }
 
-.logo, .hero h1, .call-to-action-title, button{
-    color:#F9FAF8;
-}
-
-.logo, .call-to-action-title{
-    font-size: 24px;
-}
-
 .nav-links{
     list-style-type: none;
     margin-right: 9em;
     padding: 0;
-}
-
-li, .hero p, .hero-image, .call-to-action-phrase, .footer-container p{
-    color: #E5E7EB;
 }
 
 li{
@@ -85,10 +69,6 @@ li{
     text-align: center;
     padding: 8px 8px 16px;
     margin: 8px;
-}
-
-.info-header-text, .hero h1{
-    font-weight: 900;
 }
 
 .info-section{
@@ -141,21 +121,9 @@ li{
     font-style:italic;
 }
 
-.blockquote-text, .info-header-text{
-    font-size: 36px;
-}
-
 .quote-footer p{
     text-align: right;
     margin-right: 8em;
-}
-
-li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .footer-container p{
-    font-size: 18px;
-}
-
-.logo, .hero-button, .call-to-action-btn, .quote-footer p, .call-to-action-title{
-    font-weight: 700;
 }
 
 /*call to action section*/
@@ -176,10 +144,6 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .f
     border-radius: 8px;
 }
 
-.hero-button, .call-to-action-btn, .call-to-action-content-container{
-    background-color: #3882F6;
-}
-
 .call-to-action-btn{
     border: 2px solid #F9FAF8; 
     padding: 8px 32px; 
@@ -197,4 +161,41 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .f
 
 .footer-container p, .subtext{
     padding: 8px;
+}
+
+/*chained styles*/
+header, .hero-container, .footer-container{
+    background-color: #1F2937;
+}
+
+.logo, .hero h1, .call-to-action-title, button{
+    color:#F9FAF8;
+}
+
+.logo, .call-to-action-title{
+    font-size: 24px;
+}
+
+li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .footer-container p{
+    font-size: 18px;
+}
+
+.logo, .hero-button, .call-to-action-btn, .quote-footer p, .call-to-action-title{
+    font-weight: 700;
+}
+
+li, .hero p, .hero-image, .call-to-action-phrase, .footer-container p{
+    color: #E5E7EB;
+}
+
+.hero-button, .call-to-action-btn, .call-to-action-content-container{
+    background-color: #3882F6;
+}
+
+.info-header-text, .hero h1{
+    font-weight: 900;
+}
+
+.blockquote-text, .info-header-text{
+    font-size: 36px;
 }
