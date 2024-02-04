@@ -189,6 +189,9 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p{
 }
 
 .footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     background-color: #1F2937;
 }
