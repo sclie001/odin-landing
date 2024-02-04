@@ -187,3 +187,8 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p{
     padding: 8px 32px; 
     border-radius: 8px;  
 }
+
+.footer-container{
+    height: 100px;
+    background-color: #1F2937;
+}
