@@ -147,7 +147,7 @@ li{
     margin-right: 8em;
 }
 
-li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p{
+li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p, .footer-container p{
     font-size: 18px;
 }
 
@@ -194,8 +194,10 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p{
     align-items: center;
     height: 100px;
     background-color: #1F2937;
+    padding: 0 30px;
 }
 
 .footer-container p{
     color:#E5E7EB;
+    padding: 8px;
 }
