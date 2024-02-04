@@ -192,3 +192,7 @@ li, .hero p, .hero-image, .hero-button, .call-to-action-btn, .quote-footer p{
     height: 100px;
     background-color: #1F2937;
 }
+
+.footer-container p{
+    color:#E5E7EB;
+}
